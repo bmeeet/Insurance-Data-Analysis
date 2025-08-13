@@ -1,64 +1,71 @@
 # Insurance-Data-Analysis
-This project performs Exploratory Data Analysis (EDA) on an Insurance dataset to identify patterns and trends in medical costs based on demographic and lifestyle factors.
+This project analyzes an insurance dataset to explore patterns and relationships in medical costs based on demographic and lifestyle factors. It includes Exploratory Data Analysis (EDA), data cleaning, and preparation steps for future predictive modeling.
 
 📌 Project Overview
-The analysis:
+The notebook:
 
 Loads and inspects the dataset.
 
-Summarizes key statistics.
+Performs statistical summaries and visualizations.
 
-Checks for missing values.
+Cleans data by removing duplicates.
 
-Visualizes numerical variables like age, BMI, children, and charges.
+Prepares the dataset for future feature engineering and modeling.
 
-Prepares for potential data cleaning, feature engineering, and predictive modeling (placeholders included in the notebook).
+📂 Files
+insurance.ipynb — Jupyter Notebook with full analysis.
 
-📂 Files in This Repository
-insurance.ipynb — Jupyter Notebook with EDA and analysis.
+insurance.csv — Dataset used in the analysis (should be placed in the same directory).
 
-insurance.csv — Dataset file (must be present in the same folder).
-
-README.md — Project documentation.
+README.md — Documentation.
 
 📊 Dataset
-Name: Insurance Dataset
-
 Source: Kaggle - Medical Cost Personal Dataset
-
 Columns:
 
-age — Age of the primary beneficiary
+age — Age of the insured
 
-sex — Gender (male, female)
+sex — Gender
 
-bmi — Body mass index
+bmi — Body Mass Index
 
-children — Number of children covered by health insurance
+children — Number of dependents covered
 
-smoker — Smoking status (yes, no)
+smoker — Smoking status
 
-region — Residential area in the US
+region — Residential region
 
-charges — Individual medical costs billed by health insurance
+charges — Medical insurance cost
 
-Load and inspect the dataset.
-
-Generate statistical summaries.
-
-Visualize distributions of numerical features.
+⚙️ Installation
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/insurance-analysis.git
+cd insurance-analysis
+pip install numpy pandas seaborn matplotlib
+🚀 Usage
+bash
+Copy
+Edit
+jupyter notebook
+Open insurance.ipynb and run cells in sequence.
 
 📈 Analysis Performed
-Basic EDA: .shape(), .head(), .info(), .describe()
+EDA:
 
-Missing value check: .isnull().sum()
+Histograms with KDE for numerical variables.
 
-Visualization: Histograms with Kernel Density Estimation (KDE) for numerical columns.
+Countplots for categorical variables.
 
-Preparation: Notebook contains placeholders for:
+Boxplots to detect outliers.
 
-Data Cleaning & Preprocessing
+Correlation heatmap.
 
-Feature Engineering & Extraction
+Data Cleaning:
 
-Model Testing
+Duplicate removal.
+
+Preparation:
+
+Dataset ready for feature engineering and modeling.
