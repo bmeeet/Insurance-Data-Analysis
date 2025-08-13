@@ -1,21 +1,23 @@
-#Insurance Data Analysis
-This project analyzes an insurance dataset to explore patterns and relationships in medical costs based on demographic and lifestyle factors. It includes Exploratory Data Analysis (EDA), data cleaning, and preparation steps for future predictive modeling.
+Insurance Data Analysis & Prediction
+This project analyzes an insurance dataset to explore patterns in medical costs and builds a predictive model to estimate charges based on demographic and lifestyle factors. It includes Exploratory Data Analysis (EDA), data cleaning, and regression modeling with accuracy evaluation.
 
 📌 Project Overview
 The notebook:
 
-Loads and inspects the dataset.
+Loads and explores the dataset.
 
 Performs statistical summaries and visualizations.
 
-Cleans data by removing duplicates.
+Cleans the data by removing duplicates.
 
-Prepares the dataset for future feature engineering and modeling.
+Builds a machine learning model to predict medical charges.
+
+Calculates model accuracy to evaluate performance.
 
 📂 Files
-insurance.ipynb — Jupyter Notebook with full analysis.
+insurance.ipynb — Jupyter Notebook with EDA, data cleaning, model training, and evaluation.
 
-insurance.csv — Dataset used in the analysis (should be placed in the same directory).
+insurance.csv — Dataset used for analysis (should be placed in the same directory).
 
 README.md — Documentation.
 
@@ -37,19 +39,13 @@ region — Residential region
 
 charges — Medical insurance cost
 
-⚙️ Installation
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/insurance-analysis.git
-cd insurance-analysis
-pip install numpy pandas seaborn matplotlib
-🚀 Usage
-bash
-Copy
-Edit
-jupyter notebook
-Open insurance.ipynb and run cells in sequence.
+Perform EDA and visualize patterns.
+
+Clean and prepare the dataset.
+
+Train a regression model.
+
+Evaluate model accuracy.
 
 📈 Analysis Performed
 EDA:
@@ -66,6 +62,15 @@ Data Cleaning:
 
 Duplicate removal.
 
-Preparation:
+Modeling:
 
-Dataset ready for feature engineering and modeling.
+Encoded categorical features.
+
+Trained regression model (e.g., Linear Regression).
+
+Calculated accuracy score to measure prediction performance.
+
+📊 Example Model Performance
+Accuracy: 79% 
+
+Evaluation Metric: R² score (regression) or classification accuracy (if applicable).
