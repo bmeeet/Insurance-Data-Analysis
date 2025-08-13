@@ -1,4 +1,4 @@
-Insurance Data Analysis
+#Insurance Data Analysis
 This project analyzes an insurance dataset to explore patterns and relationships in medical costs based on demographic and lifestyle factors. It includes Exploratory Data Analysis (EDA), data cleaning, and preparation steps for future predictive modeling.
 
 📌 Project Overview
